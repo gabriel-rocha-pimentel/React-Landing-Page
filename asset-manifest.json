@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0035b1a0.css",
+    "main.js": "/static/js/main.a86b37ba.js",
+    "static/media/background-pageSix-removebg-preview.png": "/static/media/background-pageSix-removebg-preview.efbb8d1d613291859910.png",
+    "static/media/background-pageTwo-removebg-preview.png": "/static/media/background-pageTwo-removebg-preview.e8a09107cf28c5431f10.png",
+    "static/media/background-pageFive-removebg-preview.png": "/static/media/background-pageFive-removebg-preview.e427f3f6fac0683d483d.png",
+    "static/media/background-pageOne-removebg-preview.png": "/static/media/background-pageOne-removebg-preview.c26c0b2a0a220fe96450.png",
+    "static/media/background-pageFour-removebg-preview.png": "/static/media/background-pageFour-removebg-preview.3c06844dcd9e1709a09d.png",
+    "static/media/backgroundMan-pageThree-removebg-preview.png": "/static/media/backgroundMan-pageThree-removebg-preview.46c11c0cb189db0a5a4a.png",
+    "static/media/backgroundGirl-pageThree-removebg-preview.png": "/static/media/backgroundGirl-pageThree-removebg-preview.6fee74e112f155742523.png",
+    "static/media/backgroundLogo-pageSix-removebg-preview.png": "/static/media/backgroundLogo-pageSix-removebg-preview.662716ac1472de068e74.png",
+    "index.html": "/index.html",
+    "main.0035b1a0.css.map": "/static/css/main.0035b1a0.css.map",
+    "main.a86b37ba.js.map": "/static/js/main.a86b37ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0035b1a0.css",
+    "static/js/main.a86b37ba.js"
+  ]
+}
