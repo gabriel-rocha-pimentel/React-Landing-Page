@@ -1,0 +1,154 @@
+footer.containerFooter {
+    width: 100%;
+    height: 100vh;
+    background-color: #F7D101;
+    display: flex;
+    align-items: center;
+}
+
+section.contentFooter {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article.footerLogo {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footerImage {
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.imageLogo {
+    width: 50%;
+    height: auto;
+}
+
+article.footerContact {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxContact {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contentContact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2em 0em;
+}
+
+.titleContat {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1em 0em;
+}
+
+.titleContat h3 {
+    font-weight: 200;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+
+.descriptionContact {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descriptionContact p {
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.socialBox {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5%;
+}
+
+.socialBox div {
+    margin-right: 3em;
+}
+
+.socialTitle p {
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+
+
+section.contentImage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.img.imgArt-girl {
+    width: 75%;
+    height: auto;
+}
+
+.footerTitle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footerButton {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+button.btnFooter {
+    width: 75%;
+    padding: 0.8em 1.5em;
+    border-radius: 36px;
+    margin: 0;
+}
+
+.footerTitle h2 {
+    font-size: 4em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}

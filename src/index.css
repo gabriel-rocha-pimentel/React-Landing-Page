@@ -1,0 +1,270 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500&display=swap');
+
+* {
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+
+  .containerHeader,
+  .containerDescription,
+  .containerBeneficts,
+  .containerCallToAction,
+  .containerVanagens,
+  .containerFooter {
+    height: auto!important;
+    margin: 1em 0;
+  }
+
+  .imgHeader {
+    width: 100%;
+  }
+
+  .boxHeaderTitle h1 {
+    font-size: 4em;
+  }
+
+  section.containerDescription {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  article.contentDescription {
+    align-items: flex-start;
+    margin: 0em 1em;
+    height: auto;
+  }
+
+  article.boxDescription p {
+    font-size: 1.2em;
+  }
+
+  .titleMain h2 {
+    font-size: 2.5em;
+  }
+
+  .imgMain {
+    width: 100%;
+  }
+
+  article.card {
+    width: 100%;
+    height: auto;
+    margin: 2em 0;
+  }
+
+  article.card h3 {
+    margin: 1em 0;
+  }
+
+  article.card h2 {
+    margin: 0.5em 0;
+  }
+
+  article.containerBoy, article.containerGirl {
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+  }
+
+  .imgGirl, .imgBoy {
+    display: none;
+  }
+
+  article.card {
+    width: 100%;
+    height: 100%;
+    margin: 2em 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  article.card h2 {
+    font-size: 2.5em;
+  }
+  
+  article.card p {
+    font-size: 1.2em;
+    padding: 0;
+  }
+
+  section.containerBeneficts {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+  }
+
+  article.contentCTA {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+  }
+
+  artcle.boxDescription {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+  }
+
+  .boxDescription h2 {
+    font-size: 2.5em;
+  }
+
+  .imgDesktop {
+    width: 50%;
+  }
+
+  .btn-cta {
+    width: 75%;
+  }
+
+  section.containerVanagens {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  section.containerVantagens h2 {
+    font-size: 2em;
+  }
+
+  section.containerVanagens p, .descriptionContact p {
+    font-size: 1.2em;
+  }
+
+  article.contentVantagens {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 0px;
+  }
+
+  .vantagensImage {
+    justify-content: center;
+    width: 75%;
+  }
+  img.img.imgPhone {
+    width: 100%;
+  }
+
+  article.boxVantagens {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+
+  section.containerVantagens h2 {
+    font-size: 2em;
+  }
+
+  .vantagensDescription {
+    width: 75%;
+  }
+
+  footer.containerFooter {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section.contentFooter {
+    align-items: center;
+    height: 100%;
+    margin: 1em 0em;
+  }
+
+  article.footerLogo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footerImage {
+    justify-content: flex-end;
+  }
+
+  .footerTitle h2 {
+    font-size: 2em;
+  }
+
+  .titleContat, .descriptionContact {
+    width: 100%;
+  }
+
+  .titleContat h3 {
+    font-size: 2em;
+  }
+
+  button.btnFooter {
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .footerButton {
+    width: 100%;
+  }
+
+  .socialBox {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .socialTitle {
+    display: none;
+  }
+
+  .socialContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .socialBox div {
+    margin: 0px;
+  }
+
+  .icon {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  section.containerVantagens {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  section.containerVantagens p, .descriptionContact p {
+    font-size: 1.2em;
+  }
+
+  button.btnFooter {
+    font-size: 1em;
+    width: 100%;
+  }
+}

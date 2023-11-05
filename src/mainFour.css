@@ -1,0 +1,51 @@
+.containerCallToAction {
+    width: 100%;
+    height: 100vh;
+    background-color: #F7D101;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+article.contentCTA {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article.boxImage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgDesktop {
+    width: 75%;
+    height: auto;
+}
+
+artcle.boxDescription {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10em;
+}
+
+.btn-cta {
+    margin: 2em 0;
+    width: 50%;
+}
+
+.boxDescription h2 {
+    font-size: 5em;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
